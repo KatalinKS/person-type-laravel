@@ -31,4 +31,9 @@ class PersonalType extends Model implements PersonalTypeContract
     {
         return $this->getOriginal('abbreviation');
     }
+
+    public function getId(): int
+    {
+        return $this->getOriginal('id');
+    }
 }

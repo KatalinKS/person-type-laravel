@@ -11,4 +11,6 @@ interface PersonalType
     public function getName(): string;
 
     public function getAbbreviation(): string;
+
+    public function getId(): int;
 }
