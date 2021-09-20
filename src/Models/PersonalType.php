@@ -1,11 +1,9 @@
 <?php
 
-
 namespace KatalinKS\PersonType\Models;
 
-
 use Illuminate\Database\Eloquent\Model;
-use \KatalinKS\PersonType\Contract\PersonalType as PersonalTypeContract;
+use KatalinKS\PersonType\Contract\PersonalType as PersonalTypeContract;
 
 class PersonalType extends Model implements PersonalTypeContract
 {
@@ -14,7 +12,7 @@ class PersonalType extends Model implements PersonalTypeContract
     protected $fillable = [
         'name',
         'abbreviation',
-        'type'
+        'type',
     ];
 
     public function getType(): string

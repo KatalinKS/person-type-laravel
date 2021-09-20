@@ -1,8 +1,6 @@
 <?php
 
-
 namespace KatalinKS\PersonType\Contract;
-
 
 interface PersonalType
 {
