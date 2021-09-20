@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace KatalinKS\PersonType;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
+use KatalinKS\PersonType\Commands\PersonTypeCommand;
 
-class SkeletonServiceProvider extends PackageServiceProvider
+class PersonTypeServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -16,10 +16,10 @@ class SkeletonServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('skeleton')
+            ->name('person-type-laravel')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_skeleton_table')
-            ->hasCommand(SkeletonCommand::class);
+            ->hasMigration('create_person-type-laravel_table')
+            ->hasCommand(PersonTypeCommand::class);
     }
 }

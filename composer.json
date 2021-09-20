@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "katalinks/person-type-laravel",
+    "description": "This is my package person-type-laravel",
     "keywords": [
-        ":vendor_name",
+        "KatalinKS",
         "laravel",
-        ":package_slug"
+        "person-type-laravel"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/katalinks/person-type-laravel",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Skej",
+            "email": "konstantin@katalin.ru",
             "role": "Developer"
         }
     ],
@@ -30,13 +30,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "KatalinKS\\PersonType\\": "src",
+            "KatalinKS\\PersonType\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "KatalinKS\\PersonType\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -49,10 +49,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "KatalinKS\\PersonType\\PersonTypeServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\SkeletonFacade"
+                "PersonType": "KatalinKS\\PersonType\\PersonTypeFacade"
             }
         }
     },

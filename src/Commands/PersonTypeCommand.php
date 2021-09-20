@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace KatalinKS\PersonType\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class PersonTypeCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'person-type-laravel';
 
     public $description = 'My command';
 
