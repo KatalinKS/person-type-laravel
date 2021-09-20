@@ -2,9 +2,9 @@
 
 namespace KatalinKS\PersonType;
 
+use KatalinKS\PersonType\Commands\PersonTypeCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use KatalinKS\PersonType\Commands\PersonTypeCommand;
 
 class PersonTypeServiceProvider extends PackageServiceProvider
 {

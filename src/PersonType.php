@@ -8,8 +8,7 @@ class PersonType
 {
     public function __construct(
         private PersonType $model
-    )
-    {
+    ) {
     }
 
     public function getType(int $id): string
